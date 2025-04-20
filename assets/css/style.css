@@ -313,3 +313,85 @@ a {
   background-color: var(--primary-color);
   color: #fff;
 }
+
+.popular .course-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.course-list .course-item {
+  cursor: pointer;
+  border: 1px solid #e2dfda;
+  transition: all 0.3s;
+}
+
+.course-list .course-item:hover {
+  box-shadow: 0px 18px 36px 0px #0000000d;
+}
+
+.course-item .info {
+  padding: 16px 22px 22px;
+}
+
+.popular .thumb {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.info .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info .head .title a {
+  color: #171100;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.info .head .rating {
+  display: flex;
+  align-items: center;
+  color: #fea31b;
+}
+
+.info .head .rating .value {
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-left: 6px;
+}
+
+.info .desc {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+.info .foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.foot .price {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.foot .btn-book-now {
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.foot .btn-book-now:hover {
+  background: var(--primary-color);
+}
